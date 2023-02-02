@@ -22,7 +22,7 @@
 }
   
 body {
-    max-width: 1200px;
+    max-width: 80%;
     margin: 0 auto;
     font-family: 'Fredoka', sans-serif;
 
@@ -44,12 +44,16 @@ header {
     width: calc((100% / 3) - 2rem);
     background-color: var(--bg-box);
     color: var(--white);    
+
 }
 span {
     color: var(--email);
+    padding-top: 10px;
 }
-.box img {
-    width: 60px;
+img {
+    width: 30%;
+    margin-right: 10px;
+    
 }
 
 .left {
@@ -57,4 +61,8 @@ span {
 }
 .right {
     float: right;
+}
+
+.info-box {
+    margin: 15px;
 }
