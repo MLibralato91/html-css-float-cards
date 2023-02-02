@@ -32,7 +32,10 @@ h1 {
     color: var(--title);
     margin: 2rem;
     font-family: 'Fredoka One', cursive;
+}
 
+h4 {
+    padding-bottom: 5px;
 }
 
 header {
@@ -44,16 +47,13 @@ header {
     width: calc((100% / 3) - 2rem);
     background-color: var(--bg-box);
     color: var(--white);    
-
 }
 span {
     color: var(--email);
-    padding-top: 10px;
 }
 img {
     width: 30%;
     margin-right: 10px;
-    
 }
 
 .left {
