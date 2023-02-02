@@ -3,3 +3,39 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --email: #4dccf2;
+    --title: #e53170;
+    --bg-box: #0f0e17;
+    --white: #ffffff;
+}
+
+.debug {
+    border: 1px solid black;
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Fredoka', sans-serif;
+
+}
+
+h1 {
+    color: var(--title);
+    margin: 2rem;
+    font-family: 'Fredoka One', cursive;
+
+}
+
+header {
+    text-align: center;
+}
+
+.box {
+    width: calc(100% / 3);
+}
+.left {
+    float: left;
+}
